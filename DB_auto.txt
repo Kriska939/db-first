@@ -5,3 +5,20 @@ riguardanti delle auto usate messe in vendita da un concessionario.
 Scrivete la struttura della tabella "auto" con le varie proprietà, tipi di dato e attributi in un file .txt e pushatelo sulla vostra repo. Aiutatevi con le slides per scegliere le giuste caratteristiche.
 
 ------------------- TABELLA DATI ----------------------
+
+TAB ENTITY : CARS  
+
+
+Id - INT - PRIMARY_KEY(NOT_NULL, UNIQUE, AUTO_INCREMENT)
+Brand - VARCHAR (50) - NOT_NULL
+Model - VARCHAR (50) - NOT_NULL
+Price - FLOAT(7,2) - NOT_NULL 
+Mileage - FLOAT(8) - NOT_NULL
+Year - YEAR - NOT_NULL
+Color - VARCHAR (50) - NOT_NULL
+Fuel_Type - CHAR(3) - NOT_NULL  (uso codici di 3 lettere per definire il tipo)
+Engine - VARCHAR (50) - NOT NULL
+Seats - TINYINT(5) - NULL
+Description - TEXT - NULL
+Images - VARCHAR - NULL
+Is_Available - BOOL [TINYINT(1)] - NOT_NULL DEFAULT(1)
