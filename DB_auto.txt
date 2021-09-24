@@ -1,0 +1,7 @@
+ESERCIZIO:
+
+Modellizzare la struttura di una tabella per memorizzare tutti i dati
+riguardanti delle auto usate messe in vendita da un concessionario.
+Scrivete la struttura della tabella "auto" con le varie proprietà, tipi di dato e attributi in un file .txt e pushatelo sulla vostra repo. Aiutatevi con le slides per scegliere le giuste caratteristiche.
+
+------------------- TABELLA DATI ----------------------
